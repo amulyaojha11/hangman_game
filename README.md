@@ -9,5 +9,12 @@ In this case, we were also asked to add an ASCII representation of the man “be
 
 ### What does the code do?
 
+It takes the word and the hint from the client side.
+And the server side has to guess the word by the help of the hint.
 The program prompts the user with the current ASCII based on the current number of incorrect guesses, along with a line of “blank spaces” (one for each letter in the word). As the user enters a guess (single letter), the program checks whether or not the guess is correct — whether it is in the word.
 While coding this, I got concerned about the number of objects I was creating just for the word-related aspects. I ended up with one list to store the version of the current guess progress for printing, one list for the current progress without special formatting, and then also a string for the current guess progress for comparing directly to the word.
+
+### Steps
+* If the guess is correct then the letters wherever required is added.
+* If not, the letters are added to missing letters.
+* Whenever you run out of the guesses you lose the game.
