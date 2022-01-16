@@ -31,3 +31,8 @@ While coding this, I got concerned about the number of objects I was creating ju
 
 ![image](https://user-images.githubusercontent.com/72320197/139127515-8d677efb-dbc6-4534-a735-76acae9d62c3.png)
 ![image](https://user-images.githubusercontent.com/72320197/139127595-44818992-3e7a-4dfc-a3b9-1acc8fb1ed34.png)
+
+Contributors
+- Raghav Khatoria
+- Siddharth Sawhney 
+- Amulya
